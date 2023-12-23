@@ -55,7 +55,7 @@ const DetailFood: React.FC<DetailFoodProps> = ({ route, navigation }) => {
     <>
         <View style={styles.topBar}>
           <View style={styles.leftButton}> 
-            <View style={styles.backButton}>
+            <View style={styles.backButton} testID="backButton">
             <Pressable
               onPress={() => {
                 navigation.navigate('Home')
@@ -67,13 +67,14 @@ const DetailFood: React.FC<DetailFoodProps> = ({ route, navigation }) => {
           <View style={styles.rightButtons}>
             <View style={styles.likeButton}>
             <Pressable
-              onPress={changeLike2}>
+              onPress={changeLike2}
+              testID="likeButton">
               {food.love == "0" 
                 ? <Image style={styles.iconLike} source={require('../images/like.png')} /> 
                 : <Image style={styles.iconLike} source={require('../images/unlike.png')} />}
               </Pressable>
             </View>
-            <View style={styles.shareButton}>
+            <View style={styles.shareButton} testID="shareButton">
               <Image style={styles.iconShare} source={require('../images/share.png')} />
             </View>
           </View>

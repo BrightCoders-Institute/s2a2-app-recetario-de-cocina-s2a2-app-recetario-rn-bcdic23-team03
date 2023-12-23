@@ -4,7 +4,7 @@ import { NavigationProp } from '@react-navigation/native'; // Asumiendo que est�
 import styles from '../styles/stylesHome';
 
 // Definir el tipo de cada propiedad en tu componente
-interface itemFoodProps {
+interface ElementFoodProps {
   foodArr: Array<{
     id: string;
     love: string;
@@ -16,14 +16,15 @@ interface itemFoodProps {
   setFood: (food: any) => void; // Ajusta el tipo según corresponda
 }
 
-const itemFood: React.FC<itemFoodProps> = ({ foodArr, navigation, setFood }) => {
+const ElementFood: React.FC<ElementFoodProps> = ({ foodArr, navigation, setFood }) => {
   return (
-    <ScrollView horizontal={true}>
+    <ScrollView horizontal={true} testID="scrollView">
       {foodArr.map((r) => {
         if (r.love === '0') {
           return (
             <View style={styles.containerCard} key={r.id}>
               <Pressable
+                testID={`foodItem-${1}`} // Agregando testID aquí
                 onPress={() => {
                   navigation.navigate('DetailFood', {
                     food: r,
@@ -44,4 +45,4 @@ const itemFood: React.FC<itemFoodProps> = ({ foodArr, navigation, setFood }) => 
   );
 };
 
-export default itemFood;
+export default ElementFood;

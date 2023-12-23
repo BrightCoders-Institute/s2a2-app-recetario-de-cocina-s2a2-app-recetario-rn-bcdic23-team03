@@ -18,7 +18,7 @@ interface RecentFoodProps {
 
 const RecentFood: React.FC<RecentFoodProps> = ({ Arrfood, navigation, setFood }) => {
   return (
-    <ScrollView horizontal={true}>
+    <ScrollView horizontal={true} testID="scrollViewRecent">
       {Arrfood.map((r) => {
         if (r.love === '1') {
           return (

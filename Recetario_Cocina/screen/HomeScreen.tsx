@@ -2,7 +2,7 @@ import 'react-native-gesture-handler';
 import React, { useState, useEffect, useCallback } from 'react';
 import data from '../data/products';
 import styles from '../styles/stylesHome';
-import itemFood from '../components/itemfood';
+import ElementFood from '../components/itemfood';
 import RecentFood from '../components/recientfood';
 import {
   SafeAreaView,
@@ -89,7 +89,7 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ navigation }) => {
                     </View> 
                   </View>                
                   <Text style={[styles.trending]}>TRENDING</Text>
-                  <itemFood foodArr={foodArr} navigation={navigation} setFood={setFood}/> 
+                  <ElementFood foodArr={foodArr} navigation={navigation} setFood={setFood}/> 
                   <Text style={[styles.recent]}>RECENT</Text>
                   <RecentFood Arrfood={foodArr} navigation={navigation} setFood={setFood}/>
                 </View>
