@@ -2,6 +2,8 @@
 
 # Recetario de Cocina
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/caeaabaa716e4386aef62ba28d65b9b3)](https://app.codacy.com/gh/BrightCoders-Institute/s2a2-app-recetario-de-cocina-s2a2-app-recetario-rn-bcdic23-team03?utm_source=github.com&utm_medium=referral&utm_content=BrightCoders-Institute/s2a2-app-recetario-de-cocina-s2a2-app-recetario-rn-bcdic23-team03&utm_campaign=Badge_Grade)
+
 ## Tabla de contenidos
 -   [Descripción](#descripci%C3%B3n)
 -   [Cómo instalar y ejecutar el proyecto?](#Cómo_instalar_y_ejecutar_el_proyecto?)
