@@ -3,10 +3,10 @@
 # Recetario de Cocina
 
 ## Tabla de contenidos
-- [Descripción](#descripci%C3%B3n)
-- [Cómo instalar y ejecutar el proyecto?](#Cómo_instalar_y_ejecutar_el_proyecto?)
-- [Cómo utilizar el proyecto?](#Cómo_utilizar_el_proyecto?)
-- [Badges](#Badges)
+-   [Descripción](#descripci%C3%B3n)
+-   [Cómo instalar y ejecutar el proyecto?](#Cómo_instalar_y_ejecutar_el_proyecto?)
+-   [Cómo utilizar el proyecto?](#Cómo_utilizar_el_proyecto?)
+-   [Badges](#Badges)
 
 ## Descripción
 
@@ -14,11 +14,11 @@ En este proyecto se realizo el diseño de un recetario de cocina en el cual pode
 
 ## ¿Cómo instalar y ejecutar el proyecto?
 
-- Para clonar el repositorio, usa el siguiente comando: https://github.com/BrightCoders-Institute/s2a2-app-recetario-de-cocina-s2a2-app-recetario-rn-bcdic23-team03/tree/main
-- Desplácese al directorio del proyecto.
-- Desplácese al directorio "Recetario_Cocina"
-- En una terminal ejecuta metro con el comando "npm start".
-- En otra terminal ejecute el comando "npm run ios" o "npm run android" dependiendo que emulador quieres usar.
+-   Para clonar el repositorio, usa el siguiente comando: https://github.com/BrightCoders-Institute/s2a2-app-recetario-de-cocina-s2a2-app-recetario-rn-bcdic23-team03/tree/main
+-   Desplácese al directorio del proyecto.
+-   Desplácese al directorio "Recetario_Cocina"
+-   En una terminal ejecuta metro con el comando "npm start".
+-   En otra terminal ejecute el comando "npm run ios" o "npm run android" dependiendo que emulador quieres usar.
 
 ## ¿Cómo utilizar el proyecto?
 
