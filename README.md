@@ -32,4 +32,5 @@ Al ingresar a la aplicación puedes hacer scroll mediante las imágenes de los a
 ![Visual Studio Code Version](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/542deb2b0c1d4a719ebaff762adb12eb)](https://app.codacy.com/gh/BrightCoders-Institute/s2a2-app-recetario-de-cocina-s2a2-app-recetario-rn-bcdic23-team03/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
