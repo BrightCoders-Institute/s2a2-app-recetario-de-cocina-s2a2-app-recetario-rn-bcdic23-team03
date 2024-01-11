@@ -1,6 +1,7 @@
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react-native';
 import RecentFood from '../components/recientfood';
+import {screen} from '@testing-library/react-native';
 
 describe('<RecentFood />', () => {
   const Arrfood = [
@@ -22,12 +23,12 @@ describe('<RecentFood />', () => {
       <RecentFood Arrfood={Arrfood} navigation={navigationMock} setFood={jest.fn()} />
     );
 
-    const foodName = getByText('Cookies');
-    const foodDescription = getByText('');
+    const foodName = screen.getByText('Cookies');
+    const foodDescription = screen.getByText('');
     expect(foodName).toBeTruthy();
     expect(foodDescription).toBeTruthy();
 
-    const scrollView = getByTestId('scrollViewRecent');
+    const scrollView = screen.getByTestId('scrollViewRecent');
     expect(scrollView).toBeTruthy();
   });
 
@@ -36,7 +37,7 @@ describe('<RecentFood />', () => {
       <RecentFood Arrfood={Arrfood} navigation={navigationMock} setFood={jest.fn()} />
     );
 
-    const foodPressable = getByText('Cookies');
+    const foodPressable = screen.getByText('Cookies');
     fireEvent.press(foodPressable);
 
     expect(navigationMock.navigate).toHaveBeenCalledWith('DetailFood', {
